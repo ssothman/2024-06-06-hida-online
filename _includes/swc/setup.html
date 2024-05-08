@@ -7,6 +7,8 @@
 {% include install_instructions/git.html %}
 {% include install_instructions/editor.html %}
 
+{% comment %}
+
 {% if site.flavor == "r" %}
 {% include install_instructions/r.html %}
 {% elsif site.flavor == "python" %}
@@ -18,7 +20,7 @@
 {% include warning-flavor.html %}
 {% endif %}
 
-{% comment %}
+
 The following setup instructions are commented out because Carpentries workshops
 cover the these topics less frequently. Please uncomment the lines that
 correspond to the topics covered in your workshop.
