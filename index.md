@@ -328,7 +328,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys after the workshop.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="{{site.incubator_post_survey}}">Post-workshop Survey</a></p>
+<p><a href="{{site.post_survey}}">Post-workshop Survey</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
